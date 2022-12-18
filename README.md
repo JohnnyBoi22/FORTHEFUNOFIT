@@ -1,2 +1,2 @@
 # FORTHEFUNOFIT
-fun stuff
+fun stuff and cool projects
