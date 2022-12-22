@@ -28,6 +28,21 @@ init_a(enum alph_enum letter)
 
     switch (letter) {
                                      /*0123 4567*/
+    case A:
+        strcpy(chars[letter].line[0], " ------- ");
+        strcpy(chars[letter].line[1], "|_______|");
+        strcpy(chars[letter].line[2], "|       |");
+        strcpy(chars[letter].line[3], "|       |");
+    case B:
+        strcpy(chars[letter].line[0], "|----|");
+        strcpy(chars[letter].line[1], "|____|");
+        strcpy(chars[letter].line[2], "|    |");
+        strcpy(chars[letter].line[3], "|____|");
+    case C:
+        strcpy(chars[letter].line[0], "______ ");
+        strcpy(chars[letter].line[1], "|      ");
+        strcpy(chars[letter].line[2], "|      ");
+        strcpy(chars[letter].line[3], "|_____ ");
     case H:
         strcpy(chars[letter].line[0], "|       |");
         strcpy(chars[letter].line[1], "|_______|");
