@@ -31,7 +31,7 @@ void addStudent()
    printf("Enter the CGPA of the student\n");
    scanf("%f", &st[i].CGPA);
    printf("Enter the course ID of each course of the student\n");
-   for (int j = 0; j < 5; j++)
+   for (int j = 0; j < 1; j++)
    {
       scanf("%d", &st[i].courseId[j]);
    }
@@ -174,7 +174,7 @@ void updateStudent()
                break;
             case 5:
                printf("Enter the updated list of courses: ");
-               scanf("%d%d%d%d%d", st[j].courseId[0],st[j].courseId[1], st[j].courseId[2], st[j].courseId[3], st[j].courseId[5]);
+               scanf("%d%d%d%d%d", st[j].courseId[0],st[j].courseId[1], st[j].courseId[2], st[j].courseId[3], st[j].courseId[4]);
                break;
          }
          printf("Records updated successfully");
