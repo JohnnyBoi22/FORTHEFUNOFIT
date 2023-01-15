@@ -12,14 +12,14 @@ class Application():
         self.prompt_income()
 
     def income_ask(self):
-        add_income = input('Add income? [y/n]: ')
+        add_income = input('Add thoust income? [y/n]: ')
         return add_income
 
     def income_sum(self):
         self.income = sum(self.income_list)
 
     def expense_ask(self):
-        add_expense = input('Add expense? [y/n]: ')
+        add_expense = input('Add thoust expense? [y/n]: ')
         return add_expense
 
     def expense_sum(self):
@@ -27,14 +27,14 @@ class Application():
 
     def income_check(self):
         if not self.income_list:
-            print('Please enter at least one source of income. ')
+            print('Enter thou income mortal fool. ')
             self.prompt_income()
         else:
             return
 
     def expense_check(self):
         if not self.expense_list:
-            print('Please enter at least one expense. ')
+            print('Tell me all of your expenses. NOW ')
             self.prompt_expense()
         else:
             return
